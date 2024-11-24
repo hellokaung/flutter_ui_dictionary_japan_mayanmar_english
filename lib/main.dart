@@ -7,6 +7,7 @@ import 'package:flutter_dictionary_ui/screen/more.dart';
 import 'package:flutter_dictionary_ui/string/app_string.dart';
 
 void main() => runApp(const MyApp());
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -20,10 +21,11 @@ class MyApp extends StatelessWidget {
         primaryColor: MyColors().primaryColor,
       ),
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: const Home(),
     );
   }
 }
+
 class Home extends StatefulWidget {
   const Home({
     super.key,

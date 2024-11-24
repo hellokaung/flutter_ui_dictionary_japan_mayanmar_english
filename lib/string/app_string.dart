@@ -22,4 +22,9 @@ class myString {
   static const String history = 'History';
   static const String favorite = 'Favorite';
   static const String more = 'More';
+  static const String delete_title = 'Delete';
+  static const String delete_forever = 'Delete forver';
+  static const String delete = 'Delete';
+  static const String delete_content = 'Are you sure to delet?';
+  static const String cancel = 'Cancel';
 }
